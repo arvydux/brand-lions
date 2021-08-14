@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c498483e5e9b702875a72c997729431",
+    "content-hash": "4e17e9abf556dc3b44d7d8cf8de6e476",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -877,6 +877,64 @@
                 "source": "https://github.com/guzzle/psr7/tree/2.0.0"
             },
             "time": "2021-06-30T20:03:07+00:00"
+        },
+        {
+            "name": "kassner/log-parser",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kassner/log-parser.git",
+                "reference": "51da12b2addb00e337918af2eecc461ce78c2032"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kassner/log-parser/zipball/51da12b2addb00e337918af2eecc461ce78c2032",
+                "reference": "51da12b2addb00e337918af2eecc461ce78c2032",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpmd/phpmd": "^2.9",
+                "phpunit/phpunit": "^8.5",
+                "sebastian/phpcpd": "^4.1",
+                "vimeo/psalm": "^4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kassner\\LogParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Kassner",
+                    "email": "kassner@gmail.com",
+                    "homepage": "http://www.kassner.com.br/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Log Parser Library",
+            "homepage": "http://github.com/kassner/log-parser",
+            "keywords": [
+                "apache",
+                "format",
+                "log",
+                "log-format",
+                "nginx",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/kassner/log-parser/issues",
+                "source": "https://github.com/kassner/log-parser/tree/2.1.0"
+            },
+            "time": "2021-06-13T08:08:42+00:00"
         },
         {
             "name": "laravel/framework",
