@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/logs', [LogController::class, 'parse']);
+Route::get('/read-log', [LogController::class, 'parseLogFile']);
+Route::get('/analise', [LogController::class, 'analise']);
